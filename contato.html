@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagens/MAC CAKE LOGO.png">   
+    <link rel="stylesheet" href="contato.css">
+    <title>Mac Cake</title>
+</head>
+<body>
+    <header>
+        <div class="Primeira logo">
+            <img src="./fotos/MAC CAKE LOGO.png" alt="Primeira Logo">
+        </div>
+        <div class="base mac_cake">
+        <a href="quemsomos.html">
+            <img src="./fotos/Mac Cake_2_base.png" alt="Segunda Logo">
+        </a>
+    </div>
+        <nav>
+            <a href="./contato.html" class="sem-sublinhado">Contato</a>
+            <a href="./servicos.html" class="sem-sublinhado">Serviços</a>
+            <a href="./produtos.html" class="sem-sublinhado">Produtos</a>
+            <a href="./carrinho.html">
+                <img src="./fotos/carrinho de compras.png" alt="Carrinho de Compras" class="imagem-pequena" />
+            </a>
+        </nav>
+    </header>
+    <div class="toldo">
+        <img src="./fotos/toldo_base site div.png" alt="toldo do site">
+        
+    </div>
+    <main>
+        <section class="formulario">
+            <h2>Fale Conosco</h2>
+            <form action="envio_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+    
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+
+</html>
