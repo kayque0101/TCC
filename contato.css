@@ -66,11 +66,11 @@ nav a {
 
 /* Ajustando o posicionamento das logos */
 div.Primeira.logo {
-    position: absolute;
-    top: 20%;
-    left: 13%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
+    position: fixed; /* Fixa o elemento na tela */
+    top: 20%; /* Mantém o topo da logo a 20% da altura da tela */
+    left: 13%; /* Mantém a logo a 13% da largura da tela */
+    transform: translate(-50%, -50%); /* Centraliza a logo em relação à posição definida */
+    z-index: 10; /* Garante que a logo fique acima de outros elementos */
 }
 
 div.base.mac_cake {
